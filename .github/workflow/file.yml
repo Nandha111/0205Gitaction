@@ -1,0 +1,16 @@
+name: hello
+on: push:    #once pushed to global repo it will execute 
+	 
+		
+jobs:
+ job-1:
+	runs-on: ubuntu- latest
+	steps:
+		-name: print "hello world"
+		 run: echo "hello world"
+		 
+		 -name: print the date
+		 run: date
+		 
+		 -name: list files
+		  run: ls -lst
