@@ -1,4 +1,4 @@
-name: hello
+name: Project 
 
 on:
   push:   # once pushed to global repo it will execute
